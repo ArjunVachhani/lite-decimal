@@ -5,9 +5,11 @@ VisualStudioVersion = 17.0.32417.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteDecimal", "LiteDecimal\LiteDecimal.csproj", "{B6F5D508-2249-45C2-ADBC-9A4DAF32F973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{D7061922-23F9-4EED-A322-1C53DA01005F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{D7061922-23F9-4EED-A322-1C53DA01005F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteDecimal.Tests", "LiteDecimal.Tests\LiteDecimal.Tests.csproj", "{FE4B6561-76A4-471B-B235-DD8E9303799D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteDecimalTests", "LiteDecimalTests\LiteDecimalTests.csproj", "{AE0FC299-F66B-4434-B57C-DFA8FA714A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteDecimalPerformance", "LiteDecimalPerformance\LiteDecimalPerformance.csproj", "{8359F4B8-2C39-47BE-AA2A-67B12AB5622E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +25,14 @@ Global
 		{D7061922-23F9-4EED-A322-1C53DA01005F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7061922-23F9-4EED-A322-1C53DA01005F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7061922-23F9-4EED-A322-1C53DA01005F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FE4B6561-76A4-471B-B235-DD8E9303799D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE4B6561-76A4-471B-B235-DD8E9303799D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE4B6561-76A4-471B-B235-DD8E9303799D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE4B6561-76A4-471B-B235-DD8E9303799D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0FC299-F66B-4434-B57C-DFA8FA714A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0FC299-F66B-4434-B57C-DFA8FA714A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0FC299-F66B-4434-B57C-DFA8FA714A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0FC299-F66B-4434-B57C-DFA8FA714A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8359F4B8-2C39-47BE-AA2A-67B12AB5622E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8359F4B8-2C39-47BE-AA2A-67B12AB5622E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8359F4B8-2C39-47BE-AA2A-67B12AB5622E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8359F4B8-2C39-47BE-AA2A-67B12AB5622E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
